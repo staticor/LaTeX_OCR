@@ -1,8 +1,8 @@
 import time
 import os
 import numpy as np
-from scipy.misc import imread
-
+# from scipy.misc import imread
+from scipy.misc.pilutil import imread
 
 from .text import load_formulas
 from .image import build_images, greyscale
